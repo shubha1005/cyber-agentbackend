@@ -1,6 +1,9 @@
 from flask import Flask
-from tool1.app import tool1
-from tool2.app import tool2
+# from tool1.app import tool1
+# from tool2.app import tool2
+from backend.tool1.app import tool1
+from backend.tool2.app import tool2
+
 
 
 
